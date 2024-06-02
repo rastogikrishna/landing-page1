@@ -1,0 +1,151 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 20px;
+    color: #03154b;
+}
+
+header {
+    background: #450202;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.header-content nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header-content nav ul li {
+    margin: 0 15px;
+}
+
+.header-content nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+}
+
+.header-content .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.header-content .btn:hover {
+    background: #e5533d;
+}
+
+.section-content, .section-features, .section-testimonials, .section-cta {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content-wrapper, .features-wrapper, .testimonials-wrapper, .cta-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-content h2, .section-features h2, .section-testimonials h2, .section-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section-content p, .section-features p, .section-testimonials p, .section-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.section-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section-features {
+    background: #f4f4f4;
+}
+
+.feature-item {
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 2rem;
+}
+
+.section-testimonials .testimonial-item {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.section-testimonials .testimonial-item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.section-cta {
+    background: #f4f4f4;
+}
+
+.section-cta .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.section-cta .btn:hover {
+    background: #e5533d;
+}
+
+.footer-content {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content p {
+    font-size: 1rem;
+}
+
+.footer-content a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #e5533d;
+}
